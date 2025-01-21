@@ -7,15 +7,19 @@ body {
 }
 
 svg {
-	
 	animation-name: flash;
 	animation-duration: 2s;
-	
-/* 	animation-iteration-count: infinite; */
 	animation-iteration-count: infinite;
 	animation-delay: 1s;
 }
 
 svg:hover{
 	transform: scale(2);
+	
 }
+
+path{
+	stroke: #37698a;
+	stroke-width: .5em;
+}
+
